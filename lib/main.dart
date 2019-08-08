@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:i01_flutter_basics/answer.dart';
 import 'package:i01_flutter_basics/quiz.dart';
 import 'package:i01_flutter_basics/result.dart';
-import './question.dart';
+
 
 main() => runApp(MyApp());
 

@@ -4,14 +4,14 @@ import './answer.dart';
 
 class Quiz extends StatelessWidget {
   final questions;
-  var questionIndex;
+  final questionIndex;
   final answerQuestion;
 
   Quiz(
       {@required this.questions,
       @required this.answerQuestion,
       @required this.questionIndex});
-      
+
   @override
   Widget build(BuildContext context) {
     return Column(
